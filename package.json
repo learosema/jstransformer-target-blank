@@ -1,0 +1,29 @@
+{
+  "name": "jstransformer-target-blank",
+  "version": "1.0.0",
+  "description": "Add target=_blank to all external links",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terabaud/jstransformer-target-blank.git"
+  },
+  "author": "Lea Rosema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terabaud/jstransformer-target-blank/issues"
+  },
+  "homepage": "https://github.com/terabaud/jstransformer-target-blank#readme",
+  "devDependencies": {
+    "test-jstransformer": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
